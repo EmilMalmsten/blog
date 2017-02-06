@@ -1,0 +1,209 @@
+body {
+    background: #121314;
+    color: white;
+}
+
+.link {
+    color: white;
+    text-decoration: none;
+}
+
+/* HEADER */
+
+header {
+    border-bottom: solid 1px #262728;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1;
+    background: #121314;
+}
+
+.container {
+    width: 70%;
+    margin: 0 auto;
+}
+
+.logo {
+    font-size: 2em;
+}
+
+.search {
+    width: 60px;
+    height: 60px;
+    margin-left: 20px;
+    float: right;
+    border: solid 1px #262728;
+    background: url(magnifying-glass.png) no-repeat center center;
+}
+
+.search:hover {
+    border: solid 1px #393b3c;
+}
+
+.logo {
+    width: 262px;
+    height: 71px;
+    float: left;
+    position: relative;
+    top: 14.5px;
+    display: flex;
+    align-items: center;
+}
+
+nav {
+    height: inherit;
+    display: flex;
+    align-items: center;
+    float: right;
+    position: relative; 
+}
+
+ul {
+    list-style: none;
+    padding: 1em 0;
+    margin-top: 25px; 
+}
+
+ul li {
+    display: inline-block;
+    font-size: 1.3em;
+    margin: 0 20px; 
+}
+
+
+ul li a:hover {
+    color: #1991c2; 
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* CONTENT */
+
+section .post {
+    margin-top: 280px
+}
+
+section .firstpost {
+    margin-top: 180px;
+}
+
+section .border{
+    position: absolute;
+    width: 70%;
+    margin-top: 225px;
+    left: 15%;
+    border-bottom: solid 1px #262728;
+}
+
+
+section .text {
+    width: 55%;
+    float: left
+}
+
+section h2:hover {
+    text-decoration: underline;
+}
+
+section .published {
+    position: absolute;
+    left: 0;
+    margin-left: 815px;
+    margin-top: 180px;
+    opacity: 0.5;
+    
+}
+
+section .image {
+    width: 40%;
+    float: right;
+    height: 250px;
+    background-image: url("birdpic.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    bottom: 50px;
+    opacity: 0.9
+    
+}
+
+section .image:hover {
+    opacity: 1;
+}
+
+section .read-more {
+    text-decoration: none;
+    color: #1991c2;
+}
+
+/* FOOTER */
+
+footer p {
+   text-align: center; 
+    opacity: 0.7;
+}
+
+/* SIDEBAR */
+
+nav .sidebar {
+    width: 7%;
+    position: fixed;
+    right: 65px;
+    top: 175px;
+    border: solid 1px #262728;
+}
+
+nav .sidebar h2 {
+    text-align: center;
+}
+
+nav .social {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    border-radius: 100px;
+    height: 80px;
+}
+
+nav .social:hover {
+    opacity: 0.5;
+}
+
+nav .social-container {
+    margin-bottom: 20px;
+}
+
+nav .social1 {
+    background-image: url("fb.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+nav .social2 {
+    background-image: url("insta.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+nav .social3 {
+    background-image: url("twtr.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+nav .social4 {
+    background-image: url("yt.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
